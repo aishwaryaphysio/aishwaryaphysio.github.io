@@ -1,66 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Physiotherapy Clinic</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 1rem 0;
-            text-align: center;
-        }
-        main {
-            padding: 2rem;
-            text-align: center;
-        }
-        section {
-            margin: 2rem 0;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 1rem 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dr. Aisha PhysioCare | Pune</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #f48fb1; color: white; padding: 20px; text-align: center; }
+    nav { background: #fce4ec; padding: 10px; text-align: center; }
+    nav a { margin: 0 15px; color: #d81b60; text-decoration: none; font-weight: bold; }
+    section { padding: 40px 20px; max-width: 1000px; margin: auto; }
+    footer { background: #f48fb1; color: white; text-align: center; padding: 10px; }
+    .services, .testimonials { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; }
+    .card { background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .contact-form input, .contact-form textarea { width: 100%; padding: 10px; margin: 10px 0; border: 1px solid #ccc; border-radius: 4px; }
+    .contact-form button { background: #d81b60; color: white; border: none; padding: 10px 20px; border-radius: 4px; cursor: pointer; }
+    .contact-form button:hover { background: #ad1457; }
+  </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our Physiotherapy Clinic</h1>
-    </header>
-    <main>
-        <section>
-            <h2>About Us</h2>
-            <p>We provide professional physiotherapy services to help you recover and stay healthy.</p>
-        </section>
-        <section>
-            <h2>Our Services</h2>
-            <ul>
-                <li>Physical Therapy</li>
-                <li>Rehabilitation Programs</li>
-                <li>Sports Injury Treatment</li>
-                <li>Pain Management</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Contact Us</h2>
-            <p>Email: contact@physioclinic.com</p>
-            <p>Phone: +123 456 7890</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2023 Physiotherapy Clinic. All rights reserved.</p>
-    </footer>
+
+<header>
+  <h1>Dr. Aisha PhysioCare</h1>
+  <p>Specialized Physiotherapy for Women in Pune</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#testimonials">Testimonials</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+  <h2>About Dr. Aisha</h2>
+  <p>Dr. Aisha is a certified physiotherapist with over 10 years of experience, specializing in women's health, rehabilitation, and pain management. Committed to providing compassionate and personalized care in Pune.</p>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Postnatal Therapy</h3>
+      <p>Helping mothers recover strength and flexibility after childbirth.</p>
+    </div>
+    <div class="card">
+      <h3>Orthopedic Physiotherapy</h3>
+      <p>Treatment for joint, muscle, and bone conditions to enhance mobility.</p>
+    </div>
+    <div class="card">
+      <h3>Chronic Pain Relief</h3>
+      <p>Managing long-term pain issues with customized therapy programs.</p>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials">
+  <h2>What Our Patients Say</h2>
+  <div class="testimonials">
+    <div class="card">
+      <p>"Dr. Aisha helped me regain my strength after my pregnancy. Very caring and professional." - Sneha R.</p>
+    </div>
+    <div class="card">
+      <p>"Excellent therapy sessions, very knowledgeable and friendly." - Priyanka M.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <textarea placeholder="Your Message" rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+  <p>Email: dr.aisha@physiocarepune.com | Phone: +91 98765 43210</p>
+</section>
+
+<footer>
+  <p>&copy; 2025 Dr. Aisha PhysioCare | Pune, India</p>
+</footer>
+
 </body>
 </html>
